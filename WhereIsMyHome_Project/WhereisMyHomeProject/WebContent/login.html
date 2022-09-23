@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구해줘 Home</title>
+    <link rel="stylesheet" href="css/common/header.css">
+    <link rel="stylesheet" href="css/common/footer.css">
+    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div id="container">
+        <!-- header 영역 시작 -->
+        <header id="header">
+            <!-- left header 영역 시작 -->
+            <div id="left-header">
+                <div class="logo">
+                    <a href="">
+                        <i class="bi bi-house-door"></i>구해줘 Home
+                    </a>
+                </div>
+
+                <nav class="gnb">
+                    <ul>
+                        <li class="gnb-link"><a href="">공지사항</a></li>
+                        <li class="gnb-link"><a href="">오늘의 뉴스</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- left header 영역 끝 -->
+            <!-- right header 영역 시작 -->
+            <div id="right-header">
+                <div class="account">
+                    <ul>
+                        <li class="account-link">
+                            <a href="login.html"><i class="bi bi-box-arrow-in-right"></i>로그인</a>
+                        </li>
+                        <li class="account-link">
+                            <a href="signup.html"><i class="bi bi-person-plus"></i>회원가입</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- right header 영역 끝-->
+        </header>
+        <!-- header 영역 끝-->
+
+        <!-- 메인 영역 시작 -->
+        <main id="main">
+            <!-- 로그인 영역 시작 -->
+            <section class="signup">
+                <form action="" class="signup-form">
+                    <h1>로그인</h1>
+                    <div class="signup-info">
+                        <ul>
+                            <li>
+                                <label for="userid">아이디*</label>
+                                <input id="userid" name="userid" type="text" required autofocus>
+                            </li>
+                            <li>
+                                <label for="pwd1">비밀번호*</label>
+                                <input id="pwd1" name="pwd1" type="password" required placeholder="영문 숫자 포함 6자리 이상">
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a class="btn" type="submit" onclick="window.open('index-login.html')">로그인</a>
+                        <a href="find-pwd.html" class="btn" type="submit">비밀번호 찾기</a>
+                    </div>
+                </form>
+            </section>
+            <!-- 로그인 영역 끝 -->
+        </main>
+        <!-- 메인 영역 끝-->
+
+        <!-- footer 영역 시작-->
+        <footer id="footer">
+            <!-- top footer 시작 -->
+            <div id="top-footer">
+                <div class="footer-content">
+                    <div class="find-us">
+                        <h2>Find us</h2>
+                    </div>
+                    <div class="us-info">
+                        <ul>
+                            <li><i class="bi bi-geo-alt"></i>대전 유성구 덕명동 삼성화재 유성캠퍼스</li>
+                            <li><i class="bi bi-people-fill"></i>SSAFY 8기 대전 8반 3팀 이진섭, 안효관</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- top footer 끝 -->
+            <!-- bottom footer 시작 -->
+            <div id="bottom-footer">
+                <div class="footer-content">
+                    <p>Copyright by SSAFY. All rights reserved.</p>
+                </div>
+            </div>
+            <!-- bottom footer 끝 -->
+        </footer>
+        <!-- footer 영역 끝-->
+    </div>
+</body>
+
+</html>

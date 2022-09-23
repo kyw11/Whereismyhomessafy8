@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.signup-form {
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.signup-info>ul li {
+    padding: 20px 0;
+}
+
+.signup-info ul li label {
+    float: left;
+    width: 100px;
+}
+
+.signup-info ul li input {
+    width: 200px;
+    height: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    border: 1px solid #222;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 7px 25px;
+}

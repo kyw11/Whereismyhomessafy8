@@ -1,0 +1,30 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 70px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+#header .bi {
+    margin-right: 10px;
+}
+
+#left-header {
+    display: flex;
+}
+
+.logo>a {
+    font-size: larger;
+}
+
+.gnb {
+    margin-left: 20px;
+}
+
+.gnb-link,
+.account-link {
+    float: left;
+    padding: 0 20px;
+}

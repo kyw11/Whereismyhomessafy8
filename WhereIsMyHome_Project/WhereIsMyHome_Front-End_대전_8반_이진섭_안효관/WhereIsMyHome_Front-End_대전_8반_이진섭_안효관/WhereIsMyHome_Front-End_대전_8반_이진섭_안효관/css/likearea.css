@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.area-form {
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+#search-home {
+    display: flex;
+    flex-direction: column;
+}
+
+#search-home select {
+    margin: 20px 0;
+    width: 200px;
+    height: 30px;
+}
+
+
+.btn-area {
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 20px;
+    border: 1px solid #222;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 7px 25px;
+}
